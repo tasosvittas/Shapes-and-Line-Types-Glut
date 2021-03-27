@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96F68F89260DC07300BA6D95 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96F68F88260DC07300BA6D95 /* main.cpp */; };
+		96F68F92260DC0C400BA6D95 /* MenuExersice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96F68F90260DC0C400BA6D95 /* MenuExersice.cpp */; };
+		96F68F97260DC0F200BA6D95 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F68F96260DC0F200BA6D95 /* OpenGL.framework */; };
+		96F68F99260DC0F700BA6D95 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F68F98260DC0F700BA6D95 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,9 @@
 
 /* Begin PBXFileReference section */
 		96F68F85260DC07300BA6D95 /* MenuExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MenuExercise; sourceTree = BUILT_PRODUCTS_DIR; };
-		96F68F88260DC07300BA6D95 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		96F68F90260DC0C400BA6D95 /* MenuExersice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MenuExersice.cpp; sourceTree = "<group>"; };
+		96F68F96260DC0F200BA6D95 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		96F68F98260DC0F700BA6D95 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F68F99260DC0F700BA6D95 /* GLUT.framework in Frameworks */,
+				96F68F97260DC0F200BA6D95 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +49,7 @@
 			children = (
 				96F68F87260DC07300BA6D95 /* MenuExercise */,
 				96F68F86260DC07300BA6D95 /* Products */,
+				96F68F95260DC0F200BA6D95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +64,18 @@
 		96F68F87260DC07300BA6D95 /* MenuExercise */ = {
 			isa = PBXGroup;
 			children = (
-				96F68F88260DC07300BA6D95 /* main.cpp */,
+				96F68F90260DC0C400BA6D95 /* MenuExersice.cpp */,
 			);
 			path = MenuExercise;
+			sourceTree = "<group>";
+		};
+		96F68F95260DC0F200BA6D95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96F68F98260DC0F700BA6D95 /* GLUT.framework */,
+				96F68F96260DC0F200BA6D95 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F68F89260DC07300BA6D95 /* main.cpp in Sources */,
+				96F68F92260DC0C400BA6D95 /* MenuExersice.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
