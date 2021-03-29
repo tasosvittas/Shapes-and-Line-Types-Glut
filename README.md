@@ -1,7 +1,7 @@
 # Shapes-and-Line-Types-Glut
 Shapes and various line types design with C++ and OpenGL Utility Toolkit (GLUT).
 
-First Option:
+First Option:<br>
 ![Screenshot 2021-03-30 at 12 57 03 AM](https://user-images.githubusercontent.com/47252292/112905699-881d3400-90f3-11eb-81c1-29f90c5c1f6b.png)
 
 Second Option:
