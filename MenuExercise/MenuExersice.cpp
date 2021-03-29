@@ -118,13 +118,7 @@ int main(int argc, char** argv)
     cin >> chooser;
     while (chooser != 0)
     {
-        if (chooser != 1 || chooser != 2)
-        {
-            cout << "Give a number between 1, 2 or 3. Try again." << endl;
-            cout << "Give 1 for the Sample Display, 2 for Shapes and 3 for Cicle:" << endl;
-            cout << "Give 0 (zero) for exit!" << endl;
-            cin >> chooser;
-        }
+
         if (chooser == 1)
         {
             glutInit(&argc,argv);
@@ -163,6 +157,13 @@ int main(int argc, char** argv)
             glutDisplayFunc(circleDisplay);
             glutMainLoop();
             return 0;
+        }
+        if (chooser != 1 || chooser != 2 )
+        {
+            cout << "Give a number between 1, 2 or 3. Try again." << endl;
+            cout << "Give 1 for the Sample Display, 2 for Shapes and 3 for Cicle:" << endl;
+            cout << "Give 0 (zero) for exit!" << endl;
+            cin >> chooser;
         }
 
     }
